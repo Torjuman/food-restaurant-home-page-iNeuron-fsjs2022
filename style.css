@@ -7,11 +7,13 @@
 
 body {
   width: 100vw;
-  height: 150vh;
-  background-color: #03203c80;
-  background-image: url(./assets/pexels-maxyne-barcel-10402282-1.png);
-  background-size: cover;
-  background-blend-mode: multiply;
+  height: 140vh;
+  background: linear-gradient(
+        to right,
+        #00416abf,
+        #292e49bf),
+        url(./assets/pexels-maxyne-barcel-10402282-1.png);
+    background-repeat: no-repeat;
 }
 
 .container {
